@@ -3,16 +3,16 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "blankgem/version"
+require "rack/commonlogger/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "blankgem"
-  spec.version       = Blankgem::VERSION
+  spec.name          = "rack-commonlogger"
+  spec.version       = Rack::CommonLogger::VERSION
   spec.authors       = ["Kurtis Rainbolt-Greene"]
   spec.email         = ["me@kurtisrainboltgreene.name"]
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.summary       = %q{Writes commonlogger to responses}
   spec.description   = spec.summary
-  spec.homepage      = "http://krainboltgreene.github.io/blankgem"
+  spec.homepage      = "http://krainboltgreene.github.io/rack-commonlogger"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"]
