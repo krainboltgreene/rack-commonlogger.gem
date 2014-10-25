@@ -13,7 +13,7 @@ module Rack
   # (which takes a single argument that responds to +to_s+), and +flush+
   # (which is called without arguments in order to make the error appear for
   # sure)
-  module CommonLogger
+  class CommonLogger
     require_relative "commonlogger/version"
     # Common Log Format: http://httpd.apache.org/docs/1.3/logs.html#common
     #

@@ -1,5 +1,5 @@
 module Rack
-  module CommonLogger
-    VERSION = "1.0.0"
+  class CommonLogger
+    VERSION = "2.0.0"
   end
 end

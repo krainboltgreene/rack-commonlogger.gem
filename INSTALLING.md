@@ -3,7 +3,7 @@ INSTALLING
 
 Add this line to your application's Gemfile:
 
-    gem "rack-commonlogger", "~> 1.0"
+    gem "rack-commonlogger", "~> 2.0"
 
 And then execute:
 
