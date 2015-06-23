@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.version       = Rack::CommonLogger::VERSION
   spec.authors       = ["Kurtis Rainbolt-Greene"]
   spec.email         = ["me@kurtisrainboltgreene.name"]
-  spec.summary       = %q{Writes commonlogger to responses}
+  spec.summary       = %q{Middleware for handling commonlogger usage}
   spec.description   = spec.summary
   spec.homepage      = "http://krainboltgreene.github.io/rack-commonlogger"
   spec.license       = "MIT"
